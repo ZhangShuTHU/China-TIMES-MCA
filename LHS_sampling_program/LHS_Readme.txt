@@ -1,0 +1,2 @@
+1) Refer to the documentation for how to use the program and perform Latin Hypercube Sampling
+2) The provided .dat file contains the input probability density functions of the random variables that are sampled with LHS; this file is used as an input to the LHS.exe

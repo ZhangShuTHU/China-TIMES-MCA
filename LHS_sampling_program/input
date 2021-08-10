@@ -1,0 +1,32 @@
+TITLE - SETUP FOR LHS OUTPUT CHINA-TIMES-MCA
+RANDOM SEED    -1122112200
+NORMAL      Wind potential
+    0.8  1.2
+NORMAL      solar potential
+    0.7  1.3
+LOGNORMAL   Biomass potential
+    0.7  1.43
+LOGNORMAL   Adjustment cost factor  SPV
+    0.7  1.43
+LOGNORMAL   Adjustment cost factor  Storage
+    0.7  1.43
+LOGNORMAL   Adjustment cost factor  wind
+    0.8  1.25
+LOGNORMAL   Adjusment cost Biomass with CCS
+    0.7  1.43
+UNIFORM Carbon budget
+    240 300
+LOGNORMAL   Adjusment cost Hydrogen
+    0.7  1.43
+LOGNORMAL   Adjusment cost Coal with CCS
+    0.7  1.43
+LOGNORMAL   Adjusment cost Nuclear
+    0.7  1.43
+LOGNORMAL   Adjusment cost Industry CCS
+    0.7  1.43
+NORMAL   Nuclear potential
+    0.7  1.3
+NORMAL   Price elasticities
+    0.7  1.3
+NOBS    1000
+OUTPUT DATA
