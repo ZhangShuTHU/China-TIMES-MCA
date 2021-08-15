@@ -56,7 +56,7 @@ Users should install the following packages, from an `R` terminal:
 
 # Demo
 ## Medium Case Generation
-Run the `DEMO` program in `ANSWER-TIMES` to generate the `.dd` file (database file), `.gen` file (TIMES command line file), and `.run` file (GAMS execution file) of the medium case. `DEMO` can be found at https://iea-etsap.org/index.php/documentation.
+Run the `DEMO` program in `ANSWER-TIMES` to generate the `.dd` file (database file), `.gen` file (TIMES command line file), and `.run` file (GAMS execution file) of the medium case. `DEMO` can be found at https://iea-etsap.org/index.php/documentation. The result should be the same as the result in the document.
 
 ## Uncertainty Case Generation
 drag `input` file to the `LHS.EXE` icon (or execute `LHS.EXE input` in `CMD`). Normally the `output` file will be generated.
@@ -67,11 +67,11 @@ Make three copies of `output-final` and name them `PEAK20`, `PEAK25`, and `PEAK3
 
 The files containing the uncertainty parameters can be obtained by modifying the `.dd` file, `.gen` file and `.run` file of the medium case using `MATLAB`. As an example, the PEAK30 scenario is able to automatically perform 1,000 cases by running the `peak30.m`.
 
-Note: The data involved in this study are given in the supplementary information, and other data in the database are not open source for the time being due to confidentiality and other reasons. Therefore the excel sheet `mca-peak30.xlsx` containing the raw database data is not available as a demo in this step.
+Note: The data involved in this study are given in the supplementary information, and other data in the database are not open source for the time being due to confidentiality reasons. Therefore the excel sheet `mca-peak30.xlsx` containing the raw database data is not available as a demo in this step. Since the complete energy system model cannot be run partially in modules, this step in the DEMO cannot be implemented for the time being.
 
 ## Data Analysis & Processing
 After getting all the data, after `Tableau Prep Builder` processing (not necessary, but can speed up the subsequent process), the data stored in `.xlsx` is transformed into database data that can be read and written quickly.
 
 In `Tableau`, we do most of the visualization work by setting up pivot tables to show the results of the model.
 
-For Figure 4, kernel density estimation is involved, which we implemented in `R` via the `ggplot2` library. We exported the values of the variables of interest through `Tableau` and saved them as files such as `Solar.csv` for subsequent processing. Taking the installed solar capacity as an example, by reading the `Solar.csv` data, the program automatically plots the kernel density estimates for different scenarios.
+For Figure 4, kernel density estimation is involved, which we implemented in `R` via the `ggplot2` library. We exported the values of the variables of interest through `Tableau` and saved them as files such as `Solar.csv` for subsequent processing. Taking the installed solar capacity as an example, by reading the `Solar.csv` data, the program automatically plots the kernel density estimates for different scenarios. The result should be the same as in Figure 4.
