@@ -1,8 +1,9 @@
 # China-TIMES-MCA Model
 # Repo Contents
-1. `MATLAB` data transfer code
-2. `R` visualization code
-3. `LHS sampling program` and documentation and input data
+1. `MATLAB` data transfer code:`peak20.m`,`peak25.m`,`peak30.m`
+2. `R` visualization code and rawdata(Fig.5):`Figure5.R`,`NCrawdata.csv`
+3. `LHS sampling program` and documentation and input data:`LHS_sampling_program` folder
+4. `Second National Pollution Source Census Bulletin` report (in Chinese):`Census Bulletin.pdf`(it can be viewed on the website of the Ministry of Ecology and Environment http://www.mee.gov.cn/xxgk2018/xxgk/xxgk01/202006/t20200610_783547.html)
 
 # System Requirements
 ## Hardware Requirements
