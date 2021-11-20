@@ -41,11 +41,11 @@ openxlsx
 gridExtra
 ```
 ## OS dependencies
-Currently the official TIMES model can only be used under Windows, for use under Linux, see https://iea-etsap.org/projects/TIMES-HPC_final.pdf.
+Currently the official TIMES model can only be used under Windows. For use under Linux, see https://iea-etsap.org/projects/TIMES-HPC_final.pdf.
 
 **Windows only**
 
-Note: We tested our study on a Windows 10 64-bit PC. But theoretically, it should work on other versions of Windows as well.
+Note: We tested our study on a Windows 10 64-bit PC. Theoretically, it should work on other versions of Windows as well.
 
 # Installation Guide
 `MATLAB`, `R`, `Tableau`, `Tableau Prep Builder`, `ANSWER-TIMES`, `GAMS`, `GAMS-CPLEX` have a complete installation guide on their official website.
@@ -68,10 +68,10 @@ Make three copies of `output-final` and name them `PEAK20`, `PEAK25`, and `PEAK3
 
 The files containing the uncertainty parameters can be obtained by modifying the `.dd` file, `.gen` file and `.run` file of the medium case using `MATLAB`. As an example, the PEAK30 scenario is able to automatically perform 1,000 cases by running the `peak30.m`.
 
-Note: The data involved in this study are given in the supplementary information, and other data in the database are not open source for the time being due to confidentiality reasons. Therefore the excel sheet `mca-peak30.xlsx` containing the raw database data is not available as a demo in this step. Since the complete energy system model cannot be run partially in modules, this step in the DEMO cannot be implemented for the time being. For a real model, this step takes more than 6 hours.
+Note: The data involved in this study are given in the supplementary information, and other data in the database are not open source due to confidentiality reasons. Therefore the excel sheet `mca-peak30.xlsx` containing the raw database data is not available as a demo in this step. Since the complete energy system model cannot be run partially in modules, this step in the DEMO cannot be implemented for the time being. For a real model, this step takes more than 6 hours.
 
 ## Data Analysis & Processing
-After getting all the data, after `Tableau Prep Builder` processing (not necessary, but can speed up the subsequent process), the data stored in `.xlsx` is transformed into database data that can be read and written quickly.
+After getting all the data, we use `Tableau Prep Builder` process data (not necessary, but can speed up the subsequent process). The data stored in `.csv` is transformed into database data that can be read and written quickly.
 
 In `Tableau`, we do most of the visualization work by setting up pivot tables to show the results of the model. Exporting these images as vector images takes about 2 minutes.
 
