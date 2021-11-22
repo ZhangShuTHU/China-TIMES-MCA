@@ -21,7 +21,7 @@ Note: We tested our study on a PC with Intel i7-9700, 32GB RAM, 1T SSD PC. The p
 
 `Tableau`: 2021.2 (https://www.tableau.com/)
 
-`ableau Prep Builder`: 2021.2 (https://www.tableau.com/)
+`Tableau Prep Builder`: 2021.2 (https://www.tableau.com/)
 
 `LHS sampling program`: 1.0 (The installation package is in this repository)
 
